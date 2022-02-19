@@ -29,11 +29,11 @@ github_username:  vrbickresimir
 snipcart_api_key: Nzc3YWNjZGMtZTMwYi00MjI3LWFhNDItNGY3NTQ1ZTdkMjNhNjM3ODA4NjE1NjM4MzMzNzE4
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 collections:
-  -trucks
+  - trucks
 
 # Exclude from processing.
 # The following items will not be processed, by default.
