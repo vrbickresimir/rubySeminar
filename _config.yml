@@ -30,6 +30,8 @@ snipcart_api_key: Nzc3YWNjZGMtZTMwYi00MjI3LWFhNDItNGY3NTQ1ZTdkMjNhNjM3ODA4NjE1Nj
 
 # Build settings
 #theme: minima
+gems:
+  - jekyll-money
 plugins:
   - jekyll-feed
 collections:
