@@ -1,8 +1,24 @@
-<div class="product">
-    <div class="product__information">
-       <h2 class="product__title">{{ product.truckName }}</h2>
-       <p class="product__description">{{ product.content }}</p>
-       {% include product_definition.html %}
-    </div>
-    <img src="{{ product.truckMainImage }}" alt="{{ product.truckName }} product image" class="product__image">
+<div class="card">
+   <h2 class="card-header">{{ product.truckName }}</h2>
+   <img src="{{ product.truckMainImage }}" alt="{{ product.truckName }} product image" class="card-img-top">
+   <div class="card-body">
+      <ul class="list-group list-group-numbered">
+         <li class="list-group-item d-flex justify-content-between align-items-start">
+           <div class="ms-2 me-auto">
+             <div class="fw-bold">Mileage</div>
+             {{product.truckMileage}}
+           </div>
+           <span class="badge bg-primary rounded-pill">1</span>
+         </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Year</div>
+              {{product.truckYear}}
+            </div>
+            <span class="badge bg-primary rounded-pill">2</span>
+          </li>
+      </ul>
+      <p class="card-text">{{ product.content }}</p>
+      {% include product_definition.html %}
    </div>
+</div>
