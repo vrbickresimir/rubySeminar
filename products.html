@@ -4,6 +4,10 @@
 
 layout: default
 ---
-{% for product in site.trucks %}
- {% include product.html %}
-{% endfor %}
+<div class="row">
+    {% for product in site.trucks %}
+    <div class="col-12 mb-3">
+        {% include product.html %}
+    </div>
+    {% endfor %}
+</div>
