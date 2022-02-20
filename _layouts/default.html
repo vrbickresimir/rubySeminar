@@ -4,7 +4,7 @@
 <body>
 <main class="main">
 {% include navigation.html %}
-<div class="products">
+<div class="container mt-4">
 {{ content }}
 </div>
 </main>
@@ -12,4 +12,5 @@
 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css" />
 <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
 <div id="snipcart" data-api-key="{{site.snipcart_api_key}}" hidden data-config-modal-style="side"></div>
+{% include footer.html %}
 </html>
