@@ -4,5 +4,5 @@
   link: /products
 - name: About
   link: /about
-  - name: Contact
+- name: Contact
   link: /contact
