@@ -4,6 +4,36 @@
 
 layout: default
 ---
-{% for product in site.trucks %}
- {% include product.html %}
-{% endfor %}
+<div class="row mb-3">
+    <div class="col-12">
+        <div class="card bg-dark text-white vh-25">
+            <img src="/assets/images/truckeronni.svg" class="card-img" alt="...">
+            <div class="card-img-overlay d-flex flex-column">
+                <h5 class="card-title">Hot deals</h5>
+                <p class="card-text">Check out our latest offers.</p>
+                <a href="/products" class="btn btn-outline-light align-self-end mt-auto">Go to products</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">Want to know a little bit more about us?</p>
+                <a href="#" class="btn btn-primary">Find out</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Contact</h5>
+                <p class="card-text">Want to get in touch with one of our representatives?</p>
+                <a href="#" class="btn btn-primary">More info</a>
+            </div>
+        </div>
+    </div>
+</div>
