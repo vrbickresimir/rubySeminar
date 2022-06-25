@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "MAN 18.261"
+date:   2022-06-24 20:33:49 +0100
+category: beton-pump
+id: "truck-1"
+image: "/assets/images/IMG_0457.png"
+tags: truck, beton-pump
+description: "Price: 4000$, Mileage: 500.000, Year: 1989"
+---
+Fair condition. Could be worse.

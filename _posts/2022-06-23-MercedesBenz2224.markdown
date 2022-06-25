@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Mercedes-Benz 2224"
+date:   2022-06-23 16:03:59 +0100
+category: beton-pump
+id: "truck-2"
+image: "/assets/images/IMG_0460.png"
+tags: truck, beton-pump
+description: "Price: 80000$, Mileage: 75.000, Year: 1993"
+---
+Works. No, it's working at the moment. No BS.
