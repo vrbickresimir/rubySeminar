@@ -37,11 +37,11 @@ plugins:
 collections:
   - trucks
 sass:
-    load_paths:
-        - _sass
-        - /usr/local/lib/ruby/gems/3.1.0/gems/bootstrap-5.1.3/assets/stylesheets
-  
-
+  #sass_dir: bower_components/bootstrap-sass/assets/stylesheets
+  #style: compressed
+  load_paths:
+    - _sass
+    - /usr/local/lib/ruby/gems/3.1.0/gems/bootstrap-5.1.3/assets/stylesheets
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
