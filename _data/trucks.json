@@ -1,0 +1,18 @@
+[
+    {
+        "truckIdentifier": "truck-1",
+        "truckName": "MAN 18.261",
+        "truckPrice": "4,000",
+        "truckMileage": "500,000",
+        "truckYear": "1989",
+        "truckMainImage": "/assets/images/IMG_0457.png"
+    },
+    {
+        "truckIdentifier": "truck-2",
+        "truckName": "Mercedes-Benz 2224",
+        "truckPrice": "80000",
+        "truckMileage": "750000",
+        "truckYear": "1993",
+        "truckMainImage": "/assets/images/IMG_0460.png"
+    }
+]
